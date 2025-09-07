@@ -13,6 +13,20 @@ const app = express();
 // Middleware
 app.use(cors());
 app.use(express.json());
+// Add this right after: app.use(express.json());
+
+// Root route
+app.get('/', (req, res) => {
+  res.json({
+    message: '🛍️ ShopEasy Backend API is running!',
+    endpoints: {
+      products: '/api/products',
+      auth: '/api/auth',
+      cart: '/api/cart'
+    },
+    documentation: 'See GitHub README for details'
+  });
+});
 
 // Connect to MongoDB
 mongoose.connect(process.env.MONGODB_URI || 'mongodb://localhost:27017/shopeasy', {
