@@ -1,3 +1,4 @@
+Updated upstream
 # 🛍️ ShopEasy – Full Stack E-Commerce Web App
 
 ShopEasy is a **full-stack e-commerce application** built as part of my internship assessment.  
@@ -41,3 +42,41 @@ ecommerce-spa/
 │ └── 📦 products.js # Product API endpoints
 └── 🧩 middleware/ # Custom middleware
 └── 🔒 auth.js # JWT authentication middleware
+
+# 🛍️ ShopEasy - E-Commerce SPA
+
+A complete full-stack single page e-commerce application with user authentication, product catalog, and shopping cart functionality.
+
+## 🌐 Live Demo
+- **Frontend**: [Deployed Link](#) *(add your frontend URL here)*
+- **Backend API**: [API Base URL](#) *(add your backend URL here)*
+- **GitHub Repository**: [Source Code](https://github.com/shivanireddy0408/ecommerce-spa)
+
+## ✨ Features
+- 🔐 **User Authentication** - Login/register with JWT tokens
+- 🛒 **Product Catalog** - Filter by category, price, and sort options
+- 🛍️ **Shopping Cart** - Add/remove items with persistent storage
+- 📱 **Responsive Design** - Works on all device sizes
+- ⚡ **RESTful APIs** - Clean backend architecture
+
+## 🛠️ Tech Stack
+**Frontend:** HTML5, CSS3, Vanilla JavaScript  
+**Backend:** Node.js, Express.js, MongoDB  
+**Authentication:** JWT, bcryptjs  
+**Database:** MongoDB with Mongoose  
+**Deployment:** Netlify (Frontend), Railway (Backend)
+
+## 🚀 Getting Started
+
+### Prerequisites
+- Node.js (v14 or higher)
+- MongoDB (local or Atlas)
+- Modern web browser
+
+### Installation
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/shivanireddy0408/ecommerce-spa.git
+   cd ecommerce-spa
+Stashed changes
