@@ -1,4 +1,3 @@
-Updated upstream
 # 🛍️ ShopEasy – Full Stack E-Commerce Web App
 
 ShopEasy is a **full-stack e-commerce application** built as part of my internship assessment.  
@@ -43,7 +42,8 @@ ecommerce-spa/
 
 # 🛍️ ShopEasy - E-Commerce SPA
 
-ShopEasy is my internship project, a full-stack e-commerce app where I built user authentication, product browsing, and cart management from scratch.
+ShopEasy is my internship project, a full-stack e-commerce app where I built user authentication, 
+product browsing, and cart management from scratch.
 
 ## 🌐 Live Demo
 
