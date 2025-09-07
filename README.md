@@ -10,7 +10,7 @@ It demonstrates my ability to design, build, and deploy a complete web solution 
 - 🔑 **User Authentication** – Secure signup & login using JWT  
 - 🛒 **Cart Management** – Add, remove, and update items  
 - 📦 **Product Listing** – Browse items with filters (category, price, sorting)  
-- 💾 **Persistent Cart** – Items remain saved after logout & login  
+- 💾 **Persistent Cart** – Items remain saved after logout & login
 - 📱 **Responsive Design** – User-friendly interface for both desktop & mobile  
 
 ---
@@ -25,32 +25,35 @@ It demonstrates my ability to design, build, and deploy a complete web solution 
 ---
 
 ## 📂 Project Structure
+
 ecommerce-spa/
-├── 📄 index.html # Main frontend application
-├── 🎨 styles.css # Complete styling with CSS variables
-├── ⚡ script.js # Frontend JavaScript functionality
-├── 📖 README.md # Project documentation
-└── 📦 backend/ # Node.js Express backend
-├── 🚀 server.js # Main server entry point
-├── 📋 package.json # Dependencies and scripts
-├── 📋 package-lock.json # Locked dependencies
-├── 🔧 .env # Environment variables (gitignored)
-├── 📊 models/ # Database models
-├── 🛣️ routes/ # API route handlers
-│ ├── 🔐 auth.js # Authentication endpoints
-│ ├── 🛒 cart.js # Shopping cart endpoints
-│ └── 📦 products.js # Product API endpoints
-└── 🧩 middleware/ # Custom middleware
-└── 🔒 auth.js # JWT authentication middleware
+├── index.html         # Main frontend file
+├── styles.css         # Styling
+├── script.js          # Frontend logic
+└── backend/
+    ├── server.js      # Server entry
+    ├── package.json
+    ├── .env           # Environment variables
+    ├── models/        # Database models
+    ├── routes/        # API route handlers
+        ├── auth.js
+        ├── cart.js
+        └── products.js
+
 
 # 🛍️ ShopEasy - E-Commerce SPA
 
-A complete full-stack single page e-commerce application with user authentication, product catalog, and shopping cart functionality.
+ShopEasy is my internship project, a full-stack e-commerce app where I built user authentication, product browsing, and cart management from scratch.
 
 ## 🌐 Live Demo
-- **Frontend**: [Deployed Link](#) *(add your frontend URL here)*
-- **Backend API**: [API Base URL](#) *(add your backend URL here)*
-- **GitHub Repository**: [Source Code](https://github.com/shivanireddy0408/ecommerce-spa)
+
+- **Frontend**: https://tryshopeasy04.netlify.app/
+- **Backend API**:  https://ecommerce-spa-7xno.onrender.com/
+- **GitHub Repository**: https://github.com/shivanireddy0408/ecommerce-spa 
+
+**Note:**
+Note: The backend is on Render’s free tier, so it might take a few seconds to wake up.
+ If you see a “Bad Gateway” error, just wait 30 sec and refresh.
 
 ## ✨ Features
 - 🔐 **User Authentication** - Login/register with JWT tokens
@@ -76,7 +79,17 @@ A complete full-stack single page e-commerce application with user authenticatio
 ### Installation
 
 1. **Clone the repository**
-   ```bash
+   
    git clone https://github.com/shivanireddy0408/ecommerce-spa.git
    cd ecommerce-spa
-Stashed changes
+
+2 **Install backend dependencies**
+   cd backend
+   npm install
+
+3. **Set up environment variables**
+   PORT=5000
+   MONGO_URI=your_mongodb_connection_string
+   JWT_SECRET=your_jwt_secret
+
+
